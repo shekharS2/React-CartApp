@@ -1,0 +1,33 @@
+.app {
+  box-sizing: border-box;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+  background-color:#dfe4ea;
+}
+
+.app-container {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  overflow-y: scroll;
+}
+
+.app-container::-webkit-scrollbar { 
+  display: none;  /* Safari and Chrome */
+}
+
+.add-product-btn-div {
+  height: 3%;
+  cursor: pointer;
+}
+
+.add-product-btn-div p {
+  margin: 0;
+  padding: 0.2rem;
+}
